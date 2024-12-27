@@ -1,0 +1,73 @@
+.app-assistant {
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.app-assistant-message-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 18px;
+  line-height: 1.2em;
+}
+
+.app-assistant-message-role {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.app-assistant-message-content {
+  font-size: 18px;
+  line-height: 1.2em;
+  white-space: break-spaces;
+  word-break: break-word;
+  background-color: #fafafa;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.app-assistant-input {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.app-assistant-input input {
+  flex: 1;
+  border: 1px solid #ccc;
+  padding: 0px 10px;
+  white-space: break-spaces;
+  font-size: 18px;
+  line-height: 1.2em;
+} 
+
+.app-assistant-input button {
+  width: 10ch;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: unset;
+  padding: 10px;
+  font-size: 18px;
+  line-height: 1.2em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.app-assistant-input button:hover {
+  background-color: #333;
+}
+
+.app-assistant-input button:active {
+  background-color: #000;
+  transform: scale(0.95);
+}
